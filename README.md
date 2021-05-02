@@ -1,7 +1,7 @@
 # Algo_revision
 
 
-##Déterminer si la string passée en parametre d'une fonction est un palindrome.
+#Déterminer si la string passée en parametre d'une fonction est un palindrome.
  ex de palindrome : kayak, ressasser, sos, lol, racecar.
  
  => BONUS : Les caractères spéciaux, chiffres, espaces, majuscules devront être supprimés.
