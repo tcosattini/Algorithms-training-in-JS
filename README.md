@@ -6,7 +6,7 @@
  
  => BONUS : Les caractères spéciaux, chiffres, espaces, majuscules devront être supprimés.
  
- <details>
+ <solutions>
  ```js
  
  
@@ -57,6 +57,7 @@ console.log(palindrome(""));
 
 
 ```
+</solution>
 
 )
 ##
