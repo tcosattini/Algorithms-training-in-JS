@@ -6,7 +6,7 @@
  
  => BONUS : Les caractères spéciaux, chiffres, espaces, majuscules devront être supprimés.
  
- <details>
+-> SOLUTION <details>
  
  
  ```js
