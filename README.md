@@ -1,11 +1,12 @@
 # Algo_revision
 
-[//]: # (
+
 #Déterminer si la string passée en parametre d'une fonction est un palindrome.
  ex de palindrome : kayak, ressasser, sos, lol, racecar.
  
  => BONUS : Les caractères spéciaux, chiffres, espaces, majuscules devront être supprimés.
  
+ <details>
  ```js
  
  
@@ -87,6 +88,7 @@ afficher les navi-composantes finales : x, y, z
 Le point d'arrivée (valeurs initiales de x, y et z) est donné en entrée du problème.
 
 ```
+</details>
 
 Attention
 Si le calcul dure plus de 10000 pas de temps, alors les coordonnées du point d'arrivée seront considérées comme inaccessibles. La réponse attendue sera alors (-1,-1,-1).
