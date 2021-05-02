@@ -6,8 +6,11 @@
  
  => BONUS : Les caractères spéciaux, chiffres, espaces, majuscules devront être supprimés.
  
- <solutions>
+ <details>
+ 
+ 
  ```js
+ 
  
  
 // Un premier tableau avec le découpage des lettres que compose la string dans le sens "gauche -> droite".
@@ -57,7 +60,7 @@ console.log(palindrome(""));
 
 
 ```
-</solution>
+</details>
 
 )
 ##
