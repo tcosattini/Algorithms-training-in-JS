@@ -1,6 +1,6 @@
 # Algo_revision
 
-
+[//]: # (
 #Déterminer si la string passée en parametre d'une fonction est un palindrome.
  ex de palindrome : kayak, ressasser, sos, lol, racecar.
  
@@ -56,6 +56,8 @@ console.log(palindrome(""));
 
 
 ```
+
+)
 ##
 
 Extrait de https://callicode.fr/pydefis/VitesseLumiere/txt
