@@ -60,6 +60,8 @@ console.log(palindrome(""));
 
 Extrait de https://callicode.fr/pydefis/VitesseLumiere/txt
 
+Données d'entrée = (997, 312, 663);
+
 Histoire Luke, Obi-Wan, Han et Chewbacca sont sur le point de quitter Tatooine et partent pour Aldorande.
 
 Mais ils sont pris en chasse par des croiseurs interstellaires de l'empire.
