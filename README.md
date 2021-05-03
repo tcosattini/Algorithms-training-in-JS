@@ -1,15 +1,24 @@
 # Algo_revision
 
 
-#Déterminer si la string passée en parametre d'une fonction est un palindrome.
+## Déterminer si la string passée en parametre d'une fonction est un palindrome.
  ex de palindrome : kayak, ressasser, sos, lol, racecar.
  
  => BONUS : Les caractères spéciaux, chiffres, espaces, majuscules devront être supprimés.
  
 -> SOLUTION <details>
  
+  Fonction Search n' Destroy.
+ 
+ Recherche dans un tableau les valeurs passées en paramètres et les supprime. Retourne un tableau des valeurs restantes.
+ 
+ Exemple : SearchNDestroy([1, 2, 3, 1, 2, 3], 2, 3) = [1,1] (A supprimé tous les 2 et 3 de la liste et retourne le reste, ici 1 et 1)
+ 
+ 
  
  ```js
+ 
+
  
  
  
