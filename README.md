@@ -8,12 +8,7 @@
  
 -> SOLUTION <details>
  
-  Fonction Search n' Destroy.
- 
- Recherche dans un tableau les valeurs passées en paramètres et les supprime. Retourne un tableau des valeurs restantes.
- 
- Exemple : SearchNDestroy([1, 2, 3, 1, 2, 3], 2, 3) = [1,1] (A supprimé tous les 2 et 3 de la liste et retourne le reste, ici 1 et 1)
- 
+  
  
  
  ```js
@@ -71,6 +66,44 @@ console.log(palindrome(""));
 ```
 </details>
 
+Fonction Search n' Destroy.
+ 
+ Recherche dans un tableau les valeurs passées en paramètres et les supprime. Retourne un tableau des valeurs restantes.
+ 
+ Exemple : SearchNDestroy([1, 2, 3, 1, 2, 3], 2, 3) = [1,1] (A supprimé tous les 2 et 3 de la liste et retourne le reste, ici 1 et 1)
+ 
+ 
+ 
+ SOLUTION =>
+ <details>
+ ```js
+ 
+ function destroyer(arr,arg1,arg2) {
+let tab = [];
+
+  for (let i =0; i <=arr.length; i++)
+
+    {
+      if (arr[i] === arg1 || arr[i] === arg2)
+      {
+        delete (arr[i])
+       
+      }
+     if (arr[i] != null)
+     {
+       tab.push(arr[i])
+     }
+  
+    }
+
+    
+    
+  return tab;
+}
+ ```
+ 
+ </details>
+ 
 )
 ##
 
