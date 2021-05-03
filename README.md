@@ -76,7 +76,9 @@ Fonction Search n' Destroy.
  
  SOLUTION =>
  <details>
- ```js
+ 
+ 
+ ``` js
  
  function destroyer(arr,arg1,arg2) {
 let tab = [];
@@ -95,12 +97,11 @@ let tab = [];
      }
   
     }
-
-    
-    
+  
   return tab;
 }
- ```
+
+``` 
  
  </details>
  
