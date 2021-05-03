@@ -66,7 +66,7 @@ console.log(palindrome(""));
 ```
 </details>
 
-Fonction Search n' Destroy.
+## Fonction Search n' Destroy.
  
  Recherche dans un tableau les valeurs passées en paramètres et les supprime. Retourne un tableau des valeurs restantes.
  
