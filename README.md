@@ -1,7 +1,7 @@
 # Algo_revision
 
 
-## Déterminer si la string passée en parametre d'une fonction est un palindrome.
+## (EXO 1)Déterminer si la string passée en parametre d'une fonction est un palindrome.
  ex de palindrome : kayak, ressasser, sos, lol, racecar.
  
  => BONUS : Les caractères spéciaux, chiffres, espaces, majuscules devront être supprimés.
@@ -66,7 +66,7 @@ console.log(palindrome(""));
 ```
 </details>
 
-## Fonction Search n' Destroy.
+## (EXO 2)Fonction Search n' Destroy.
  
  Recherche dans un tableau les valeurs passées en paramètres et les supprime. Retourne un tableau des valeurs restantes.
  
