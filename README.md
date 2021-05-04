@@ -151,7 +151,7 @@ for (let y = 0; y < tab_2.length; y++)
 
   ```
   
-
+</details>
   
 }
  
