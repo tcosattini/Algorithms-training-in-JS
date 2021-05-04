@@ -105,7 +105,56 @@ let tab = [];
  
  </details>
  
-)
+ ## (EXO 3) Checker si une string (1er agrument (str), se termine par la string passée en 2nd argument (target).
+ Exemple : confirmEnding("Bastian", "n") doit retourner TRUE;
+ confirmEnding("Connor", "n") doit retourner FALSE.
+ 
+ NE PAS UTILISER LA FONCTION NATIVE '.endsWith()'
+
+SOLUTION =>
+
+<details>
+ 
+ ```js
+ let tab = [];
+
+let tab_2 = [];
+
+function confirmEnding(str, target) {
+
+  str = str.replace (' ','')
+  for (let i = str.length-1; i >= 0; i--)
+  {
+    tab.push(str[i])
+  }
+  console.log(tab)
+
+  for (let z = target.length-1; z >= 0; z--)
+
+ 
+    {
+      tab_2.push(target[z])
+      
+    }
+
+ console.log(tab_2)
+
+for (let y = 0; y < tab_2.length; y++)
+  
+  if (tab[y] != tab_2[y])
+  {
+    console.log(false)
+    return false
+  }
+  console.log(true)
+  return true;
+
+  ```
+  
+
+  
+}
+ 
 ##
 
 Extrait de https://callicode.fr/pydefis/VitesseLumiere/txt
