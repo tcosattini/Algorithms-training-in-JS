@@ -158,6 +158,9 @@ for (let y = 0; y < tab_2.length; y++)
 ## (EXO 4) CALCULATRICE JS
 
 <details>
+ 
+ ```js
+
  <div class="container">
             <div class="row">
                 <FORM NAME='unFormulaire'>
@@ -179,6 +182,11 @@ for (let y = 0; y < tab_2.length; y++)
                 <button type="button" onclick="operations(unFormulaire)">Go !</button>
         
                 </FORM>
+                
+              
+              
+              
+            
 
         </div>
                 
@@ -320,7 +328,7 @@ for (let y = 0; y < tab_2.length; y++)
     
 </body>
 </html>
- 
+ ````
  </details>
  
 ## (EXO 5) VITESSE LUMIERE
