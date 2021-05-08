@@ -154,8 +154,176 @@ for (let y = 0; y < tab_2.length; y++)
 </details>
   
 }
+
+## (EXO 4) CALCULATRICE JS
+
+<details>
+ <div class="container">
+            <div class="row">
+                <FORM NAME='unFormulaire'>
+                    <input type="number" name="nb1" class="input_element"></div>
+                <label for ="operator"> </label>
+                <select name="operators" value="operators" id="operators" size="3">
+
+                    <!-- ICI L'OPTION RADION EST IMPORTANTE POUR AVOIR LA REMONTEE DE LA DONNEE SELECTIONEE-->
+
+                    <option type="radio" type name ="addition" id="addition" value="addition">+</option>
+                    <option value="soustraction">-</option>
+                    <option value="division">/</option>
+                    <option value="multiplication">X</option>
+
+                </select>
+
+
+                <input type="number" name="nb2" class="input_element_2">
+                <button type="button" onclick="operations(unFormulaire)">Go !</button>
+        
+                </FORM>
+
+        </div>
+                
+       
+    
+
+
+    <script>
+
+      
+
+
+
+            /* ON RECUPERE LES DONNEES GRACE A LA FONCTION OPERATION */
+
+
+
+            function operations (unFormulaire) 
+            {
+
+                /* CREATION DE VARIBALES OU SONT STOCKES LES DONNEES DU FORMULAIRE */
+
+
+
+                
+
+                /* nb1 POUR L'INPUT_1 */
+
+                let nb1 = parseInt(unFormulaire.nb1.value);
+
+                /* parseInt pour forcer la conversion de la string renvoyée par le formulaire en donnée de type NUMBER ex:("12" -> 12) */
+                console.log (nb1);
+
+
+                /* nb2 POUR L'INPUT_2 */
+
+                let nb2 = parseInt(unFormulaire.nb2.value)
+                console.log (nb2);
+
+
+
+                /* operator POUR LA SELECTION RADIO DE LOPERATION SOUHAITEE */
+
+                let operator = (unFormulaire.operators.value);
+                console.log(operator);
+
+
+
+                /* SWITCH POUR APPLIQUER LA FONCTION SOUHAITEE EN LIEN AVEC LE CHOIX DE L UTILISATEUR */
+                
+
+                /* SWITCH SUR OPERATOR POUR CONDITIONNER L APPEL A LA FONCTION SOUHAITEE */
+            
+              switch (operator) {
+                  
+                case 'soustraction':  /* LA DONNEE RENVOYEE N'EST PAS UNE STRING MAIS JS FAIT LA CONVERSION AUTO ?? */
+
+                    return afficher(soustractionF(nb1,nb2));
+                    
+                break;
+
+                case 'addition':
+
+                    return afficher (additionF(nb1,nb2));    
+
+                break;
+
+                case 'division':
+
+                    return afficher (divisionF(nb1,nb2));
+
+                break;
+
+                case 'multiplication':
+
+                    return afficher (multiplicationF(nb1,nb2));
+
+                break;
+                
+                
+                default : 'ERREUR';
+                break;
+                
+                    
+
+
+              }}; 
+
+
+              
+            
+            /* FONCTIONS UTILISEES */
+
+
+            function soustractionF (nb1,nb2)
+            {
+                let resultat = nb1 - nb2;
+
+                return resultat;
+            }
+
+            function additionF (nb1,nb2)
+            {
+                let resultat = nb1 + nb2;
+                
+                return resultat
+            }
+
+            function divisionF (nb1,nb2)
+            {
+                let resultat = nb1 / nb2;
+
+                return resultat;
+            }
+
+            function multiplicationF (nb1, nb2)
+            {
+                let resultat = nb1 * nb2;
+
+                return resultat;
+            }
+
+           
+
+
+            function afficher (paramText)
+
+            {
+
+                document.write (paramText);
+                document.write ('<br>');
+
+
+            }
+
+        
+
+    </script>
+    
+</body>
+</html>
  
-## (EXO 4) VITESSE LUMIERE
+ </details>
+ 
+## (EXO 5) VITESSE LUMIERE
 
 Extrait de https://callicode.fr/pydefis/VitesseLumiere/txt
 
